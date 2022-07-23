@@ -1,0 +1,1 @@
+untuk membuka file php adalah dengan cara menyalakan apache di software xampp lalu buka di browser localhost tempat file nya, yang dimulai dari htdocs. lebih lengkapnya liat di youtube unpas php.
