@@ -79,10 +79,10 @@ if (isset($_POST['simpan'])) {
 
         //* Process update data
         if ($op == 'edit') {
+
+            if ($q1) {
             $sql1   = "update peminjam set nama = '$nama', nama_buku='$nama_buku', no_hp='$no_hp', tanggal_peminjaman='$tanggal_peminjaman' where id = '$id'";
             $q1     = mysqli_query($koneksi, $sql1);
-
-            if ($q1 && $cek == 0) {
                 $sukses = "Data berhasil di update";
             } else {
                 $error = "Data gagal di update";
